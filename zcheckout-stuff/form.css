@@ -1,5 +1,11 @@
 html,body,.wrapper{
-    background: #f7f7f7;
+    background: linear-gradient(
+		to right,
+		rgba(25, 223, 225, 1) 0%,
+		rgba(25, 223, 225, 1) 20%,
+		rgba(86, 119, 135, 1) 80%,
+		rgba(86, 119, 135, 1) 100%
+	);
 }
 .steps {
     margin-top: -41px;
@@ -119,7 +125,7 @@ html,body,.wrapper{
   border: 0px;
   color: #fff;
   text-shadow: 0 1px rgba(0,0,0,0.1); 
-  background-color: #357ebd;/*#4d90fe;*/
+  background-color: #008b8b ;/*#4d90fe;*/
   padding: 17px 0px;
   font-family: roboto;
   font-size: 14px;
@@ -130,7 +136,7 @@ html,body,.wrapper{
   /* border: 1px solid #2f5bb7; */
   border: 0px;
   text-shadow: 0 1px rgba(0,0,0,0.3);
-  background-color: #357ae8;
+  background-color: #008b8b ;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
 }
 
@@ -228,7 +234,7 @@ ol, ul {
 }
 
 .panel-info {
-    border-color: #999;
+    border-color: #008b8b ;
 }
 
 .panel-heading {
@@ -240,14 +246,20 @@ ol, ul {
 }
 .panel-info > .panel-heading {
     color: #eee;
-    border-color: #999;
+    border-color: #008b8b 
 }
 .panel-info > .panel-heading {
-    background-image: linear-gradient(to bottom, #555 0px, #888 100%);
+    background: linear-gradient(
+		to left,
+		rgba(25, 223, 225, 1) 0%,
+		rgba(25, 223, 225, 1) 20%,
+		rgba(86, 119, 135, 1) 80%,
+		rgba(86, 119, 135, 1) 100%
+	);
 }
 
 hr {
-    border-color: #999 -moz-use-text-color -moz-use-text-color;
+    border-color: #008b8b  -moz-use-text-color -moz-use-text-color;
 }
 
 .panel-footer {

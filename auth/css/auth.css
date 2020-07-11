@@ -87,7 +87,7 @@ h2.active {
 
 /* FORM TYPOGRAPHY*/
 
-input[type=button], input[type=submit], input[type=reset]  {
+ input[type=submit], input[type=reset]  {
   background:linear-gradient(
     to right,
     rgba(25, 223, 225, 1) 0%,
@@ -115,11 +115,11 @@ input[type=button], input[type=submit], input[type=reset]  {
   transition: all 0.3s ease-in-out;
 }
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+ input[type=submit]:hover, input[type=reset]:hover  {
     background-color: #008b8b
 }
 
-input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+ input[type=submit]:active, input[type=reset]:active  {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -o-transform: scale(0.95);
@@ -278,4 +278,157 @@ input[type=text]:placeholder {
 }
 
 
+
+/* Social Login Buttons */
+
+
+#fblogin {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+
+    left: 35px;
+    
+    height: 50px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    white-space: nowrap;
+    width: 85%;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(86, 120, 188), rgb(49, 74, 123)) repeat scroll 0% 0% / auto padding-box border-box;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(86, 120, 188), rgb(49, 74, 123)) repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(49, 74, 123);
+    border-right: 1px solid rgb(42, 64, 105);
+    border-bottom: 1px solid rgb(42, 64, 105);
+    border-left: 1px solid rgb(42, 64, 105);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font: normal normal 16px/normal 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    outline: rgb(68, 68, 68) none 0px;
+    overflow: hidden;
+    padding: 10px 18px;
+}
+
+#fbname {
+    background-position: 0px 0px;
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0470588) 1px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 48px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    top: 0px;
+    
+    white-space: nowrap;
+    width: 50px;
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.0784314) no-repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal 16px/normal 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    outline: rgb(68, 68, 68) none 0px;
+}
+
+#fbtext {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 150px;
+    padding-left: 38px;
+    align-self: flex-start;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold 16px/normal 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    margin: -3px 0px 0px 42px;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+#gpluslogin {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    float: left;
+ 
+    left: 35px;
+    height: 50px;
+    position: absolute;
+    text-align: left;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    
+    white-space: nowrap;
+    width: 85%;
+    background-color: #DD4B39;
+    background: -webkit-linear-gradient(#DD4B39,#D14836);
+    background: linear-gradient(#DD4B39,#D14836);
+    border-top: 1px solid rgb(230, 88, 88);
+    border-right: 1px solid rgb(227, 66, 66);
+    border-bottom: 1px solid rgb(227, 66, 66);
+    border-left: 1px solid rgb(227, 66, 66);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font: normal normal 16px/normal 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+    outline: rgb(68, 68, 68) none 0px;
+    overflow: hidden;
+
+}
+
+#gpname {
+    background-position: 0px 0px;
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0470588) 1px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 48px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    top: 0px;
+   
+    white-space: nowrap;
+    width: 50px;
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.0666667) no-repeat scroll -43px -44px / auto padding-box border-box;
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal 16px/normal 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    outline: rgb(68, 68, 68) none 0px;
+}
+
+#gptext {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    text-align: left;
+    padding-left: 50px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 150px;
+    align-self: flex-start;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold 16px/normal 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+    margin: -3px 0px 0px 42px;
+    outline: rgb(255, 255, 255) none 0px;
+}
 
