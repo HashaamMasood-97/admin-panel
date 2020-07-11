@@ -13371,6 +13371,7 @@ dl {
 
 .content-wrapper {
   background: #f2edf3;
+  display:inline-block;
   padding: 2.75rem 2.25rem;
   width: 100%;
   -webkit-box-flex: 1;

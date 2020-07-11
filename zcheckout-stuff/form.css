@@ -238,15 +238,16 @@ ol, ul {
 }
 
 .panel-heading {
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .panel {
-    border-radius: 1px;
+    border-radius: 5px;
 }
 .panel-info > .panel-heading {
     color: #eee;
-    border-color: #008b8b 
+    border-color: #008b8b;
+
 }
 .panel-info > .panel-heading {
     background: linear-gradient(
